@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div id="game-container">
+    <div id="game-board">
+
+    </div>
+
+    <div id="level-score-container" class="level-score-section">
+      
+    </div>
+
+    
+    <div class="hold-section" id="hold-container">
+        
+    </div>
+
+   
+    <div class="next-section" id="next-container">
+        
+    </div>
+
+    <div id="overlay">
+      <button id="play-button">Play</button>
+    </div>
+
+    <div id="pause-menu" class="hidden">
+      <button id="resume-button">Resume</button>
+      <button id="restart-button" class="hidden  ">Restart</button>
+      <button id="SFX-button">Toggle SFX</button>
+      <button id="music-button">Toggle Music</button>
+    </div>
+  
+    
+    <button id="pause-button">Pause</button>
+
+    <div id="game-over" class="hidden">
+      <h2 id="game-Over-Text">Game Over</h2>
+      <p>Level: <span id="final-level">1</span></p>
+      <p>Score: <span id="final-score">0</span></p>
+      <button id="gameover-restart" class="hidden">Restart</button>
+    </div>
+
+  </div>
+  
+  <script src="./js/script.js"></script>
+
+</body>
+  
+</html>

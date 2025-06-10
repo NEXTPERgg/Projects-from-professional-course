@@ -1,0 +1,7 @@
+← = mover para a esquerda
+→ = mover para a direita
+↑  = rodar a peça
+↓ = mover peça para baixo
+
+space = colocar a peça 
+sifht = guardar/trocar peça
